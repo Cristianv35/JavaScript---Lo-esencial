@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestor Estudiantes</title>
+    <script type="application/javascript" src="js/app.js"></script>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+
+</head>
+<body>
+<div class="contenedor1">
+
+        <h1>Gestor de Estudiantes</h1>
+  
+
+    <div>
+        <div class="header">
+            Operaciones
+        </div>
+        <div class="contenedor2">
+            <div class="botones">
+                <button type="button" class="btn" onclick="mostrarEstudiantes()">
+                    Mostrar Alumnos
+                </button>
+                <button type="button" class="btn" onclick="calcularNotaPromedio()"> Calcular Nota Promedio
+                </button>
+                <button type="button" class="btn" onclick="calcularNotaMayor()">Nota Mayor
+                </button>
+                <button type="button" class="btn" onclick="calcularNotaMenor()"> Nota Menor
+                </button>
+            </div>
+
+            
+
+            <hr>
+
+            <table class="table" id="alumnos">
+                <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nombre</th>
+                    <th>Nota</th>
+                </tr>
+                </thead>
+                <tbody id="notas">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
